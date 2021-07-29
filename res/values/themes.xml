@@ -1,0 +1,28 @@
+<resources
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style
+        name="Theme.Memestagram"
+        parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item
+            name="colorPrimary">@color/Cbbbbbb</item>
+        <item
+            name="colorPrimaryVariant">@color/C0000ff</item>
+        <item
+            name="colorOnPrimary">@color/C000000</item>
+        <!-- Secondary brand color. -->
+        <item
+            name="colorSecondary">@color/Cbbbbbb</item>
+        <item
+            name="colorSecondaryVariant">@color/C0000ff</item>
+        <item
+            name="colorOnSecondary">@color/C000000</item>
+        <!-- Status bar color. -->
+        <item
+            name="android:statusBarColor"
+            tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+</resources>

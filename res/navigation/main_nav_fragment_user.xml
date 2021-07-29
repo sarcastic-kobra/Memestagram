@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_fragment_user.xml"
+    app:startDestination="@id/Browse">
+
+    <fragment
+        android:id="@+id/Browse"
+        android:name="com.rtech.memestagram.BrowseFragment"
+        android:label="Browse"
+        tools:layout="@layout/fragment_browse" />
+
+    <fragment
+        android:id="@+id/AddMeme"
+        android:name="com.rtech.memestagram.AddMemeFragment"
+        android:label="Add A Meme"
+        tools:layout="@layout/fragment_add_meme" />
+
+    <fragment
+        android:id="@+id/LogOut"
+        android:name="com.rtech.memestagram.LogOutFragment"
+        android:label="Log Out"
+        tools:layout="@layout/fragment_log_out" />
+
+    <fragment
+        android:id="@+id/MyProfile"
+        android:name="com.rtech.memestagram.ProfileFragment"
+        android:label="My Profile"
+        tools:layout="@layout/fragment_profile" />
+
+</navigation>

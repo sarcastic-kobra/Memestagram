@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Browse"
+        android:title="@string/browse"/>
+
+    <item
+        android:id="@+id/AddMeme"
+        android:title="@string/add_a_meme"/>
+
+    <item
+        android:id="@+id/MyProfile"
+        android:title="@string/my_profile"/>
+
+    <item
+        android:id="@+id/LogOut"
+        android:title="@string/logout"/>
+
+</menu>

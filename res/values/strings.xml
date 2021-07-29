@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Memestagram</string>
+    <string name="login">LogIn</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="logout">LogOut</string>
+    <string name="add_a_meme">Add A Meme</string>
+    <string name="browse">Browse</string>
+    <string name="my_profile">My Profile</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/Browse">
+
+    <fragment
+        android:id="@+id/LogIn"
+        android:name="com.rtech.memestagram.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/SignUp"
+        android:name="com.rtech.memestagram.SignUpFragment"
+        android:label="SignUp"
+        tools:layout="@layout/fragment_sign_up" />
+
+    <fragment
+        android:id="@+id/Browse"
+        android:name="com.rtech.memestagram.BrowseFragment"
+        android:label="Browse"
+        tools:layout="@layout/fragment_browse" />
+
+</navigation>

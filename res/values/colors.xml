@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color
+        name="C0000ff">#0000ff</color>
+    <color
+        name="C000000">#000000</color>
+    <color
+        name="Cffffff">#ffffff</color>
+    <color
+        name="Cbbbbbb">#bbbbbb</color>
+
+</resources>
